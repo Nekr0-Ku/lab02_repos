@@ -23,14 +23,14 @@ int main()
     cin >> beta;
 
     // Обчислення z1
-    double z1 = (sin(alpha) + cos(2 * beta - alpha)) /
+   //double z1 = (sin(alpha) + cos(2 * beta - alpha)) /
         (cos(alpha) - sin(2 * beta - alpha));
 
     // Обчислення z2
-   // double z2 = (1 + sin(2 * beta)) / cos(2 * beta);
+    double z2 = (1 + sin(2 * beta)) / cos(2 * beta);
 
-    /*результат обчислення 1 - го виразу*/cout << "z1 = " << z1 << endl;
-    /*результат обчислення 2-го виразу*///cout << "z2 = " << z2 << endl;
+    /*результат обчислення 1 - го виразу*///cout << "z1 = " << z1 << endl;
+    /*результат обчислення 2-го виразу*/cout << "z2 = " << z2 << endl;
 
     return 0;
 }
